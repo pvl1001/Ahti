@@ -1,0 +1,388 @@
+h1, h2, h3, h4, h5, h6, span, b, s, a, strong{
+	margin-bottom: 0;
+	text-align: center;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+}
+ul, li{
+	display: block;
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0;
+}
+a{
+	text-decoration: none !important;
+}
+p{
+	z-index: 10;
+	display: block;
+	padding-right: 20px;
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+/*---------------------------*/
+header{
+	position: relative;
+	z-index: 1;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+}
+.header{
+	padding: 14px 40px;
+	border-bottom: 1px solid;
+	box-shadow: 0 0 5px;
+}
+.nav li{
+	margin: 0 15px;
+}
+.fa{
+	border-radius: 50%;
+	background-color: #1590FF;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	margin-right: 10px;
+}
+
+/*1 секция*/
+.block1 h1{
+	font-size: 36px;
+	font-weight: 600;
+	padding-top: 15px;
+}
+.block1 span{
+	font-size: 16px;
+	font-weight: 300;
+	padding: 30px;
+}
+/*2 секция*/
+.block2{
+	background-color: #F3F3F3;
+	align-items: center;
+	padding: 10px;
+}
+.block2 b{
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	margin-right: 80px;
+}
+.block2 a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 205px;
+	height: 60px;
+	color: #fff;
+	background-color: #1590FF;
+	font-size: 16px;
+	font-weight: 700;
+	transition: .4s;
+	border-radius: 7px;
+
+}
+.block2 a:hover{
+	box-shadow: 0 0 10px #fff inset;
+}
+
+/*3 секция*/
+.block3__1{
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+.img1{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild3639-6532-4534-b432-396538366361/-/cover/520x800/center/center/-/format/webp/ahtilahti-6.jpg)no-repeat top/260px 400px;
+	transition: .4s;
+}
+.img1:hover{
+	background: url(https://thumb.tildacdn.com/tild6636-6236-4338-b763-626166386566/-/cover/520x800/center/center/-/format/webp/ahtilahti-7.jpg)no-repeat top center/260px 400px;
+}
+.block3__1 span{
+	font-weight: 300;
+	font-size: 14px;
+	padding: 8px 0;
+}
+.block3__1 p{
+	padding-right: 0;
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.block3__1 s{
+	margin-left: 5px;
+	display: inline;
+	opacity: .3;
+	font-size: 16px;
+	font-weight: 400;
+}
+.btn-about{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 136px;
+	height: 45px;
+	color: #fff;
+	border-radius: 5px;
+	background-color: #1590FF;
+	font-weight: 700;
+	font-size: 14px;
+	transition: .3s;
+}
+.btn-about:hover{
+	color: #fff;
+	box-shadow: 0 0 10px #fff inset;
+}
+.img2{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild3733-3132-4533-a661-386633323132/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-12.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img2:hover{
+	background: url(https://thumb.tildacdn.com/tild3366-6366-4232-b936-363738636238/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-5.jpg)no-repeat top center/260px 400px;
+}
+.img3{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild6531-3838-4331-b634-653161396263/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-6.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img3:hover{
+	background: url(https://thumb.tildacdn.com/tild3366-6461-4030-a632-623137383762/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-8.jpg)no-repeat top center/260px 400px;
+}
+.img4{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild6334-6661-4265-a630-643034623137/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-9.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img4:hover{
+	background: url(https://thumb.tildacdn.com/tild3039-3731-4935-b365-313466363564/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-7.jpg)no-repeat top center/260px 400px;
+}
+.img5{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild3332-3732-4963-b163-346132393631/-/cover/520x800/center/center/-/format/webp/3b948a88-1484-4898-9.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img5:hover{
+	background: url(https://thumb.tildacdn.com/tild3431-3035-4135-a238-376662636364/-/cover/520x800/center/center/-/format/webp/ahtilahti_1-9.jpg)no-repeat top center/260px 400px;
+}
+.img6{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild6132-3733-4166-b633-633733323030/-/cover/520x800/center/center/-/format/webp/ahtilahti_1-3.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img6:hover{
+	background: url(https://thumb.tildacdn.com/tild6631-6637-4265-b461-383566643134/-/cover/520x800/center/center/-/format/webp/ahtilahti_1-4.jpg)no-repeat top center/260px 400px;
+}
+.img7{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild6666-3536-4534-b964-396138373034/-/cover/520x800/center/center/-/format/webp/ahtilahti_1-5.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img7:hover{
+	background: url(https://thumb.tildacdn.com/tild3737-3733-4931-b563-313064346233/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-2.jpg)no-repeat top center/260px 400px;
+}
+.img8{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild3662-3664-4633-a633-313835366631/-/cover/520x800/center/center/-/format/webp/ahtilahti_1-7.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img8:hover{
+	background: url(https://thumb.tildacdn.com/tild3565-3961-4733-a433-643337323639/-/cover/520x800/center/center/-/format/webp/ahtilahti_1-8.jpg)no-repeat top center/260px 400px;
+}
+.img9{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild3163-3663-4434-b862-346536303930/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-11.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img9:hover{
+	background: url(https://thumb.tildacdn.com/tild6562-6261-4737-b766-663564363661/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-3.jpg)no-repeat top center/260px 400px;
+}
+.img10{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild3761-3733-4435-b366-633464306537/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-4.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img10:hover{
+	background: url(https://thumb.tildacdn.com/tild6563-3866-4139-a138-323132333131/-/cover/520x800/center/center/-/format/webp/ahtilahti_2-10.jpg)no-repeat top center/260px 400px;
+}
+.img11{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild6263-6231-4333-a464-343830396534/-/cover/520x800/center/center/-/format/webp/c2a38bd4-72b9-4392-a.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img11:hover{
+	background: url(https://thumb.tildacdn.com/tild6261-3061-4762-b733-363137333632/-/cover/520x800/center/center/-/format/webp/776a3c9e-cad4-419a-a.jpg)no-repeat top center/260px 400px;
+}
+.img12{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	background: url(https://thumb.tildacdn.com/tild6164-6230-4364-b933-346464343965/-/cover/520x800/center/center/-/format/webp/ahtilahti_1-6.jpg)no-repeat top center/260px 400px;
+	transition: .4s;
+}
+.img12:hover{
+	background: url("https://thumb.tildacdn.com/tild3738-3634-4337-a437-663331306338/-/cover/520x800/center/center/-/format/webp/ahtilahti_1.jpg")no-repeat top center/260px 400px;
+}
+footer{
+	background-color: #1590FF;
+	padding: 14px 40px;
+}
+.orange{
+	color: #FFB244;
+	display: inline;
+}
+.rec p{
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+}
+.up{
+	font-weight: 600;
+	color: #fff;
+	transition: .3s;
+}
+.up:hover{
+	color: #fff;
+	text-shadow: 0 0 5px #fff;
+}
+footer .fa{
+	color: #1590FF;
+	background-color: #fff;
+	font-size: 20px;
+}
+.fa-long-arrow-up{
+	display: inline;
+	margin-left: 5px;
+	color: #fff !important;
+	background-color: #1590FF !important;
+}
+
+/*---------------------*/
+.fa-caret-down{
+	background-color: #fff !important;
+	color: #000;
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+}
+.menu{
+	line-height: 2em;
+	position: relative;
+}
+.hr{
+	border-bottom: 2px solid #555;
+}
+.nowrap{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.podmenu{
+	position: absolute;
+	left: 23%;
+	visibility: hidden;
+	padding: 0;
+	width: 120px;
+	height: 1px;
+	line-height: 2em;
+	background-color: #fff;
+	box-shadow: 0 0 5px #000;
+	padding: 0;
+	overflow: hidden;
+	transition: .4s;
+}
+.menu li:hover .podmenu{
+	visibility: visible;
+	position: absolute;
+	height: 130px;
+}
+.podmenu li {
+	transition: .3s;
+}
+.podmenu li:hover{
+	background-color: #9f9f9f9f;
+	margin: 0 !important;
+}
+.nav a{
+	color: #000;
+}
+
+/*------------------------*/
+.podmenu2{
+	visibility: hidden;
+	position: absolute;
+	left: 52.5%;
+	background-color: #fff;
+	box-shadow: 0 0 5px #000;
+	line-height: 2em;
+	width: 120px;
+	height: 1px;
+	overflow: hidden;
+	transition: .4s;
+}
+.menu li:hover .podmenu2{
+	position: absolute;
+	visibility: visible;
+	height: 100px;
+}
+.podmenu2 li {
+	transition: .3s;
+}
+.podmenu2 li:hover{
+	background-color: #9f9f9f9f;
+	margin: 0;
+}
+
+@media (max-width: 1100px) {
+
+	.header {
+		display: none;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.rec {
+		margin-bottom: 40px;
+	}
+
+	.rec p{
+		text-align: center;
+	}
+
+	.up-cont {
+		margin-top: 40px;
+		justify-content: center !important;
+	}
+
+}
